@@ -106,10 +106,46 @@ body {
 	font-family: "Raleway";
 	font-style: normal;
 	font-weight: bold;
-	z-index: 100;
 	color: #fffdff;
 	font-size: 110px;
 	text-transform: uppercase;
+}
+.footer__link {
+	font-size: 20px;
+}
+.footer__link span:hover {
+	color: #dc3545 !important;
+}
+@media (max-width: 1200px) {
+	.site-bg__photo {
+		justify-content: flex-start;
+		height: 500px;
+	}
+	.site-bg__photo h1 {
+		font-size: 100px !important;
+		margin-top: 120px;
+	}
+	.site-about__boxs {
+		display: block !important;
+		margin-right: 0 !important;
+		text-align: center;
+	}
+	.site-footer__box p {
+		text-align: left;
+	}
+}
+@media (max-width: 1000px) {
+	.site-bg__photo {
+		justify-content: flex-start;
+		height: 400px;
+	}
+	.site-bg__photo h1 {
+		font-size: 80px !important;
+		margin-top: 100px !important;
+	}
+	.site-bg__photo img {
+		width: 400px;
+	}
 }
 @media (max-width: 995px) {
 	.site-messages__icon {
@@ -234,10 +270,46 @@ body {
 		width: 20px;
 		height: 20px;
 	}
+	.site-footer__boxs {
+		display: block !important;
+		text-align: center;
+	}
+	.site-footer__item {
+		margin-right: 0 !important;
+	}
+	.site-footer__item div {
+		justify-content: center !important;
+	}
+	.site-footer__box {
+		margin-left: 0 !important;
+		margin-top: 40px !important;
+	}
+	.site-footer__box div {
+		justify-content: center !important;
+	}
+	.site-footer__box p {
+		text-align: center;
+	}
 }
 @media (max-width: 790px) {
 	.site-carousel__box {
 		width: 25% !important;
+	}
+}
+@media (max-width: 767px) {
+	.site-bg__photo {
+		justify-content: flex-start;
+		height: 300px;
+	}
+	.site-bg__photo h1 {
+		font-size: 50px !important;
+		margin-top: 40px !important;
+	}
+	.site-bg__photo img {
+		width: 250px;
+	}
+	.site-bg__item {
+		margin-right: 0 !important;
 	}
 }
 @media (max-width: 765px) {
@@ -327,5 +399,45 @@ body {
 	}
 	.site-carousel__box:nth-child(3n) {
 		display: none !important;
+	}
+	.site-about__boxs img {
+		width: 350px !important;
+		height: 350px !important;
+	}
+}
+@media (max-width: 510px) {
+	.site-bg__photo {
+		justify-content: flex-start;
+		height: 220px;
+	}
+	.site-bg__photo h1 {
+		font-size: 40px !important;
+		margin-top: 40px !important;
+	}
+	.site-bg__photo img {
+		width: 200px;
+	}
+	.site-bg__item {
+		margin-right: 0 !important;
+	}
+}
+@media (max-width: 450px) {
+	.site-bg__photo {
+		justify-content: flex-start;
+		height: 180px;
+	}
+	.site-bg__photo h1 {
+		font-size: 40px !important;
+		margin-top: 30px !important;
+	}
+	.site-bg__photo img {
+		width: 200px;
+	}
+	.site-bg__item {
+		margin-right: 0 !important;
+	}
+	.site-about__boxs img {
+		width: 250px !important;
+		height: 250px !important;
 	}
 }

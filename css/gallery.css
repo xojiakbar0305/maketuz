@@ -35,6 +35,14 @@
 .site-gallery__item a:hover {
 	color: #DC3544;
 }
+.site-gallery__item a span {
+	font-size: 14px;
+	color: grey;
+	opacity: 0.9;
+}
+.site-gallery__item a span:hover {
+	opacity: 0.7;
+}
 .site-gallery__link {
 	display: block;
 	width: 40px;
@@ -84,10 +92,42 @@
 	}
 	.site-gallery__photo h1 {
 		font-size: 50px !important;
-		margin-top: 60px !important;
+		margin-top: 40px !important;
 	}
 	.site-gallery__photo img {
 		width: 250px;
+	}
+	.site-gallery__item {
+		margin-right: 0 !important;
+	}
+}
+@media (max-width: 510px) {
+	.site-gallery__photo {
+		justify-content: flex-start;
+		height: 220px;
+	}
+	.site-gallery__photo h1 {
+		font-size: 40px !important;
+		margin-top: 40px !important;
+	}
+	.site-gallery__photo img {
+		width: 200px;
+	}
+	.site-gallery__item {
+		margin-right: 0 !important;
+	}
+}
+@media (max-width: 450px) {
+	.site-gallery__photo {
+		justify-content: flex-start;
+		height: 180px;
+	}
+	.site-gallery__photo h1 {
+		font-size: 40px !important;
+		margin-top: 30px !important;
+	}
+	.site-gallery__photo img {
+		width: 200px;
 	}
 	.site-gallery__item {
 		margin-right: 0 !important;
