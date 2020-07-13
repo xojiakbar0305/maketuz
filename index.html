@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/fa/css/all.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/news.css">
+	<link rel="stylesheet" href="./css/fa/css/all.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/programs.css">
 	<title>Document</title>
 </head>
 <body>
@@ -24,24 +24,24 @@
 	</div>
 	<!-- navbar -->
 	<section class="bg-primary">
-		<div class="container">
+		<div class="container pl-2">
 			<nav class="navbar navbar-expand-lg p-0">
-				<div class="w-100 d-flex align-items-center">
+				<div class="site-flag-boxs w-100 d-flex align-items-center">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="color: black !important;">
 						<span class="navbar-toggler-icon fas fa-bars d-flex align-items-center justify-content-center" style="color: black !important;"></span>
 					</button>
-					<div class="ml-auto">
-						<li class="nav-item d-flex align-items-center site-newsmenu__flag">
-							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/uzbekistan.svg" alt="rasm" width="20" height="20"></a>
-							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/russia.svg" alt="rasm" width="20" height="20"></a>
-							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/flag.svg" alt="rasm" width="20" height="20"></a>
-						</li>
-					</div>
+				</div>
+				<div class="ml-auto site-newsbox">
+					<li class="nav-item d-flex align-items-center site-newsmenu__flag">
+						<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/uzbekistan.svg" alt="rasm" width="20" height="20"></a>
+						<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/russia.svg" alt="rasm" width="20" height="20"></a>
+						<a class="d-flex nav-link pt-3 pb-3 pl-3 pr-2 p-0" href="#"><img src="img/flag.svg" alt="rasm" width="20" height="20"></a>
+					</li>
 				</div>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<ul class="navbar-nav mt-2 mt-lg-0">
 						<li class="nav-item mr-5">
-							<a class="nav-link text-light pt-3 pb-3 pl-3 pr-3 site-nav__link" href="#">Home</a>
+							<a class="nav-link text-light pt-3 pb-3 pl-3 pr-3 site-nav__link" href="index.html">Home</a>
 						</li>
 						<li class="nav-item mr-5">
 							<a class="nav-link color-dark text-light pt-3 pb-3 pl-3 pr-3 site-nav__link" href="programs.html">Programs</a>
@@ -54,16 +54,22 @@
 						</li>
 						<li class="nav-item mr-5">
 							<a class="nav-link text-light pt-3 pb-3 pl-3 pr-3 site-nav__link" href="contacts.html">Contacts</a>
-						</li>
+						</li>	
 						<li class="nav-item mr-5"> 
 							<a class="nav-link text-light pt-3 pb-3 pl-3 pr-3 site-nav__link" href="about.html">About</a>
 						</li>
-						<li class="nav-item d-flex align-items-center ml-5 site-news__flag" style="margin-left: 200px!important;">
-							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/uzbekistan.svg" alt="rasm" width="20" height="20"></a>
-							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/russia.svg" alt="rasm" width="20" height="20"></a>
-							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/flag.svg" alt="rasm" width="20" height="20"></a>
-						</li>
 					</ul>
+					<li class="ml-auto nav-item d-flex align-items-center justify-content-center site-news__flag">
+						<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/uzbekistan.svg" alt="rasm" width="20" height="20"></a>
+						<ul class="site-news__item mt-2">
+							<li>
+								<a class="d-flex justify-content-center align-items-center pl-2 pt-3 pr-2 pb-2" href="#"><img src="img/russia.svg" alt="rasm" width="20" height="20"></a>
+							</li>
+							<li>
+								<a class="d-flex justify-content-center align-items-center pl-2 pb-3 pr-2" href="#"><img src="img/flag.svg" alt="rasm" width="20" height="20"></a>
+							</li>
+						</ul>
+					</li>
 				</div>
 			</nav>
 		</div>
@@ -336,11 +342,11 @@
 			</div>
 		</section>
 		<!-- corusel2 -->
-		<section style="background-color: #00264F;">
+		<section class="" style="background-color: #00264F;">
 			<div class="container">
 				<div class="pt-5 pb-5 text-center">
-					<h3 class="m-0 text-center text-light">Lorem ipsum dolor.</h3>
-					<form class="site-footer__form col-sm-12 col-lg-6 d-inline-flex flex-column mt-5" action="#" method="POST">
+					<h3 class="m-0 mb-5 text-center text-light">Lorem ipsum dolor.</h3>
+					<form class="site-footer__form col-sm-12 col-md-12 col-lg-6 d-flex flex-column m-auto" action="#" method="POST">
 						<input class="mb-3 p-2" type="text" name="text" placeholder="Name">
 						<input class="mb-3 p-2" type="email" name="email" placeholder="E-mail">
 						<textarea class="pl-2 pt-3 resize-vertical" name="text" placeholder="Your messange" id="textarea" cols="30" rows="10"></textarea>
@@ -373,7 +379,7 @@
 				</div>
 				<div class="ml-5 site-footer__box">
 					<a class="d-block mb-3" href="#">
-						<img src="img/logo.png" alt="rasm" width="250">
+						<img src="img/loggo.png" alt="rasm" width="250">
 					</a>
 					<p class="text-dark">Lorem ipsum dolor sit amet.</p>
 					<div class="d-flex align-items-center">
