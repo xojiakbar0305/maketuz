@@ -15,6 +15,9 @@
 .site-newsmenu__flag {
 	display: none !important;
 }
+.color {
+	color: #dc3545; 
+}
 @media (max-width: 996px) {
 	.site-newsmenu__flag {
 		display: flex !important;
