@@ -1,0 +1,12 @@
+.site-contracts__photo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/pic3.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat; 
+	background-position: top bottom;
+}

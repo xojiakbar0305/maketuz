@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/programs.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="css/news.css">
 	<title>Document</title>
 </head>
 <body>
@@ -26,9 +27,18 @@
 	<section class="bg-primary">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg p-0">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="color: black !important;">
-					<span class="navbar-toggler-icon fas fa-bars d-flex align-items-center justify-content-center" style="color: black !important;"></span>
-				</button>
+				<div class="w-100 d-flex align-items-center">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="color: black !important;">
+						<span class="navbar-toggler-icon fas fa-bars d-flex align-items-center justify-content-center" style="color: black !important;"></span>
+					</button>
+					<div class="ml-auto">
+						<li class="nav-item d-flex align-items-center site-newsmenu__flag">
+							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/uzbekistan.svg" alt="rasm" width="20" height="20"></a>
+							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/russia.svg" alt="rasm" width="20" height="20"></a>
+							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/flag.svg" alt="rasm" width="20" height="20"></a>
+						</li>
+					</div>
+				</div>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item mr-5">
@@ -49,6 +59,11 @@
 						<li class="nav-item"> 
 							<a class="nav-link text-light pt-3 pb-3 pl-3 pr-3 site-nav__link" href="about.html">About</a>
 						</li>
+						<li class="nav-item d-flex align-items-center ml-5 site-news__flag" style="margin-left: 200px!important;">
+							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/uzbekistan.svg" alt="rasm" width="20" height="20"></a>
+							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/russia.svg" alt="rasm" width="20" height="20"></a>
+							<a class="d-flex nav-link pt-3 pb-3 pr-3" href="#"><img src="img/flag.svg" alt="rasm" width="20" height="20"></a>
+						</li>
 					</ul>
 				</div>
 			</nav>
@@ -66,6 +81,12 @@
 	<!-- card boxs -->
 	<section>
 		<div class="container pt-5 pb-5">
+			<div class="input-group mb-5">
+				<input type="text" class="form-control" placeholder="Search Card" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				<div class="input-group-append">
+					<button class="btn btn-outline-secondary" type="button">Search</button>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6 mb-4">
 					<a href="#">
@@ -73,7 +94,7 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -89,7 +110,7 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -105,23 +126,7 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
-						</h4>
-						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
-					</div>
-					<div class="d-flex align-items-center card-footer">
-						<span class="d-flex align-items-center far fa-user mr-3"><p class="ml-2 m-0">1234</p></span>
-						<span class="d-flex align-items-center far fa-heart mr-3"><p class="ml-2 m-0">0</p></span>
-						<span class="text-muted">★ ★ ★ ★ ☆</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 mb-4">
-					<a href="#">
-						<img class="card-img-top" src="http://placehold.it/700x400" alt="rasim">
-					</a>
-					<div class="card-body border border-bottom-0">
-						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -137,7 +142,7 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -153,7 +158,7 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -169,7 +174,7 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -185,7 +190,23 @@
 					</a>
 					<div class="card-body border border-bottom-0">
 						<h4 class="card-title">
-							<a class="text-decoration-none" href="#">Acworth Maktabi</a>
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
+						</h4>
+						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
+					</div>
+					<div class="d-flex align-items-center card-footer">
+						<span class="d-flex align-items-center far fa-user mr-3"><p class="ml-2 m-0">1234</p></span>
+						<span class="d-flex align-items-center far fa-heart mr-3"><p class="ml-2 m-0">0</p></span>
+						<span class="text-muted">★ ★ ★ ★ ☆</span>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb-4">
+					<a href="#">
+						<img class="card-img-top" src="http://placehold.it/700x400" alt="rasim">
+					</a>
+					<div class="card-body border border-bottom-0">
+						<h4 class="card-title">
+							<a class="d-block text-decoration-none site-programs__link" href="#">Acworth Maktabi</a>
 						</h4>
 						<p class="card-text">Ackworth Maktabi - Angliyaning G'arbiy Yorkshir shtatidagi Pontefrakt yaqinidagi High Ackworth qishlog'ida joylashgan mustaqil maktab. Bu Angliyadagi sakkizta Quaker maktablaridan biridir.</p>
 					</div>
@@ -234,7 +255,7 @@
 		</div>
 	</section>
 	<footer style="background-color: #b8b5b5d6;">
-		<div class="container d-flex pt-5 pb-5 site-footer__boxs">
+		<div class="container d-flex justify-content-center pt-5 pb-5 site-footer__boxs">
 			<div class="mr-5 site-footer__item">
 				<h3 class="text-dark mb-4">Aloqalar</h3>
 				<div class="d-flex align-items-center mb-3"> 

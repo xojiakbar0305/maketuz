@@ -19,6 +19,12 @@
 	font-size: 110px;
 	text-transform: uppercase;
 }
+.site-programs__link {
+	color: black;
+}
+.site-programs__link:hover {
+	color: #dc3545 !important;
+}
 @media (max-width: 1200px) {
 	.site-programs__photo {
 		justify-content: flex-start;

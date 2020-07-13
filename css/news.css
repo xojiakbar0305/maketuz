@@ -1,0 +1,26 @@
+.site-news__box:hover button {
+	background-color: #dc3545 !important;
+	border-color: #dc3545 !important;
+}
+.site-news__box a {
+	text-decoration: none;
+	color: black;
+}
+.site-news__box a:hover {
+	color: #dc3545;
+}
+.site-news__span {
+	font-size: 12px;
+}
+.site-newsmenu__flag {
+	display: none !important;
+}
+@media (max-width: 996px) {
+	.site-newsmenu__flag {
+		display: flex !important;
+		margin-left: 0 !important;
+	}
+	.site-news__flag {
+		display: none !important;
+	}
+}
