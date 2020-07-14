@@ -1,47 +1,39 @@
 @font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'),
-       url("../fonts/raleway-v16-latin-300.woff2") format("woff2"),
-       url("../fonts/raleway-v16-latin-300.woff") format("woff"),
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+	url("../fonts/Poppins-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
 }
+
 @font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'),
-       url("../fonts/raleway-v16-latin-regular.woff2") format("woff2"),
-       url("../fonts/raleway-v16-latin-regular.woff") format("woff"),
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+	url("../fonts/Poppins-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
+
 @font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'),
-       url("../fonts/raleway-v16-latin-700.woff2") format("woff2"), 
-       url("../fonts/raleway-v16-latin-700.woff") format("woff"), 
-}
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
-       url("../fonts/raleway-v16-latin-800.woff2") format("woff2"),
-       url("../fonts/raleway-v16-latin-800.woff") format("woff"),
-}
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 900;
-  src: local('Raleway Black'), local('Raleway-Black'),
-       url("../fonts/raleway-v16-latin-900.woff2") format("woff2"),
-       url("../fonts/raleway-v16-latin-900.woff") format("woff"), 
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+	url("../fonts/Poppins-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
 }
 body {
-	font-family: "Raleway" , "Arial", sans-serif;
+	font-family: "Poppins", "Arial", sans-serif;
+	font-weight: normal;
 	padding: 0 !important;
 	margin: 0 !important;
+}
+.site-gallery__title {
+	font-style: normal;
+	font-weight: bold;
+	z-index: 100;
+	color: #fffdff;
+	font-size: 110px;
+	text-transform: uppercase;
 }
 .site-messages__icon {
 	text-decoration: none !important;
@@ -103,7 +95,6 @@ body {
 	background-position: top bottom;
 }
 .site-bg__title {
-	font-family: "Raleway";
 	font-style: normal;
 	font-weight: bold;
 	color: #fffdff;
@@ -232,15 +223,7 @@ body {
 		height: 20px;
 	}
 }
-/*@media (max-width: 993px) {
-	.site-news__flag {
-		display: none!important;
-	}
-	.site-newsbox {
-		display: none!important;
-	}
-}*/
-@media (max-width: 993px) {
+@media (max-width: 992px) {
 	.site-news__flag {
 		display: none!important;
 	}
@@ -252,11 +235,12 @@ body {
 		display: flex !important;
 		margin-left: 0 !important;
 	}
-}
-@media (max-width: 992px) {
 	.site-newsbox {
 		display: flex!important;
 		justify-content: flex-end;
+	}
+	.site-messages__icon {
+		font-size: 20px!important;
 	}
 }
 @media (max-width: 850px) {
@@ -354,6 +338,9 @@ body {
 	.site-bg__item {
 		margin-right: 0 !important;
 	}
+	.site-contacts__ifrem {
+	margin-top: 20px !important;
+}
 }
 @media (max-width: 765px) {
 	.site-search__icon {

@@ -1,3 +1,29 @@
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+	url("../fonts/Poppins-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+	url("../fonts/Poppins-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+	url("../fonts/Poppins-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+body {
+	font-family: "Poppins", "Arial", sans-serif;
+}
 .site-programs__photo {
 	display: flex;
 	align-items: center;
@@ -14,13 +40,15 @@
 	width: auto!important;
 }
 .site-programs__title {
-	font-family: "Raleway";
 	font-style: normal;
 	font-weight: bold;
 	z-index: 100;
 	color: #fffdff;
 	font-size: 110px;
 	text-transform: uppercase;
+}
+.site-newsmenu__flag:hover .site-news__item {
+	display: block;
 }
 .site-news__flag:hover .site-news__item {
 	display: block;
@@ -82,7 +110,6 @@
 @media (max-width: 510px) {
 	.site-gallery__photo {
 		justify-content: flex-start;
-		height: 220px;
 	}
 	.site-gallery__photo h1 {
 		font-size: 40px !important;
