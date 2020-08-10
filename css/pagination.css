@@ -1,6 +1,9 @@
 #page-navi {
   width:50%;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   margin: 40px auto;
   margin-bottom:10px;
@@ -9,6 +12,7 @@
 }
 
 #page-navi li {
+  margin-top: 3px;
   list-style: none;
   display: inline;
 }
@@ -36,7 +40,7 @@
 #page-navi li a:hover {
   background: tomato;
   color: #fff;
-  border-bottom:3px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 @media (max-width: 1000px) {
   #page-navi {
